@@ -17,8 +17,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     // 2. Update the display of the die
     document.getElementById('dice-1').style.display = 'block';
     document.getElementById('dice-2').style.display = 'block';
-    document.getElementById('dice-1').src = 'dice-' + die1 + '.png';
-    document.getElementById('dice-2').src = 'dice-' + die2 + '.png';
+    document.getElementById('dice-1').src = 'img/dice-' + die1 + '.png';
+    document.getElementById('dice-2').src = 'img/dice-' + die2 + '.png';
 
     // 3. Update the round score
     if (die1 !== 1 && die2 !== 2) {
