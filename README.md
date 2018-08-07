@@ -6,8 +6,4 @@ There are many different rule variants for Pig, such as Two-Dice Pig, Big Pig, a
 
 ## Instructions
 
-The game is played in rounds with two players. For each turn, a player rolls two dice as many times as he or she wishes. Each result is added to his or her _round_ score. If the player rolls a 1, his or her round score is set to zero and it immediately becomes the next player's turn. The player can choose to _hold_, which means that his or her round score is added to their _total_ score, and it immediately becomes the next player's turn. The first player to reach 100 points for his or her total score wins the game.
-
-1. A player looses his ENTIRE score when he rolls two 6 in a row. After that, it's the next player's turn. (Hint: Always save the previous dice roll in a separate variable)
-2. Add an input field to the HTML where players can set the winning score, so that they can change the predefined score of 100. (Hint: you can read that value with the .value property in JavaScript. This is a good oportunity to use google to figure this out :)
-3. Add another dice to the game, so that there are two dices now. The player looses his current score when one of them is a 1. (Hint: you will need CSS to position the second dice, so take a look at the CSS code for the first one.)
+The game is played in rounds with two players. For each turn, a player rolls two dice as many times as he or she wishes. Each result is added to his or her _round_ score. If the player rolls a 1, his or her round score is set to zero and it immediately becomes the next player's turn. The player can choose to _hold_, which means that his or her round score is added to their _total_ score, and it immediately becomes the next player's turn. The first player to reach 100 points, or any given limit, for his or her total score wins the game. Also, a player will lose his or her entire total score when they roll two sixes in a row, and it immediately becomes the next player's turn.
