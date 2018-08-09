@@ -4,10 +4,12 @@ Pig is a simple dice game first described in print by John Scarne in 1945. Pig i
 
 There are many different rule variants for Pig, such as Two-Dice Pig, Big Pig, and Skunk. This game will follow the variation of the rules for Two-Dice Pig. I've provided an example image of the output of an HTML page on startup below. For more information about the rules and origin of the game, please refer to the [Wikipedia page](https://en.wikipedia.org/wiki/Pig_(dice_game)) that describes this information in more detail.
 
-<p align="center">
-  <img width="800" height="500" src="/img/example.png">
-</p>
-
 ## Instructions
 
 The game is played in rounds with two players. For each turn, a player rolls two dice as many times as he or she wishes. Each result is added to his or her _round_ score. If the player rolls a 1, his or her round score is set to zero and it immediately becomes the next player's turn. The player can choose to _hold_, which means that his or her round score is added to their _total_ score, and it immediately becomes the next player's turn. The first player to reach 100 points, or any given limit, for his or her total score wins the game. Also, a player will lose his or her entire total score when they roll two sixes in a row, and it immediately becomes the next player's turn.
+
+## Example Display
+
+<p align="center">
+  <img width="800" height="500" src="/img/example.png">
+</p>
